@@ -1,0 +1,8 @@
+2021-02-27 16:38:39,979 - root - INFO : 页面未找到('css selector', 'div.index_service_cnt.js_service_list>a:nth-child(1)')元素
+2021-02-27 16:38:49,406 - root - INFO : 页面未找到('id', 'username')元素
+2021-02-27 16:40:07,383 - root - INFO : 页面未找到('css selector', 'div.index_service_cnt.js_service_list>a:nth-child(1)')元素
+2021-02-27 16:40:15,286 - root - INFO : 页面未找到('css selector', 'div.index_service_cnt.js_service_list>a:nth-child(1)')元素
+2021-02-27 16:41:36,289 - root - INFO : 页面未找到('css selector', 'div.index_service_cnt.js_service_list>a:nth-child(1)')元素
+2021-02-27 16:41:43,713 - root - INFO : 页面未找到('css selector', 'div.index_service_cnt.js_service_list>a:nth-child(1)')元素
+2021-02-27 16:43:24,234 - root - INFO : 页面未找到('css selector', '.ww_pageNav_info_text')元素
+2021-02-27 16:43:33,107 - root - INFO : 页面未找到('css selector', '.ww_pageNav_info_text')元素

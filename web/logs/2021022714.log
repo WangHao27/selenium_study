@@ -1,0 +1,12 @@
+2021-02-27 14:07:05,359 - root - INFO : 页面未找到('id', 'username')元素
+2021-02-27 14:30:29,506 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:30:36,618 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:30:47,689 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:30:54,745 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:31:05,858 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:31:12,956 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:31:20,072 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:31:31,098 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:31:38,194 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:48:33,190 - root - INFO : 页面未找到('css selector', 'tr.member_colRight_memberTable_tr.member_colRight_memberTable_tr_Inactive>td:nth-child(2)')元素
+2021-02-27 14:49:25,361 - root - INFO : 页面未找到('css selector', 'div.member_colRight_operationBar.ww_operationBar>a:nth-child(3)')元素
