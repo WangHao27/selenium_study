@@ -19,7 +19,7 @@ TEST_LOG = os.path.join(BASE_DIR, "logs")
 TEST_DATAS = os.path.join(BASE_DIR, "testdatas/addmembers_datas.csv")
 
 def read_membbers_datas():
-    with open(TEST_DATAS) as f:
+    with open(TEST_DATAS, encoding="utf-8") as f:
         r = csv.DictReader(f)
         data = []
         for row in r:
