@@ -5,6 +5,7 @@
 @File ：base_page.py
 """
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -38,24 +39,27 @@ class BasePage:
             # 等待某个元素可见
             WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(locator))
             return self.driver.find_element(*locator)
-        except:
+        except NoSuchElementException as e:
             log.info(f'页面未找到{locator}元素')
+            raise e
 
     # 查找多个元素
     def finds(self, *locator):
         try:
             WebDriverWait(self.driver, 5).until(EC.visibility_of_all_elements_located(locator))
             return self.driver.find_elements(*locator)
-        except:
+        except NoSuchElementException as e:
             log.info(f'页面未找到{locator}元素')
+            raise e
 
     # 显示等待某个元素可点击，并执行点击操作
     def wait_for_click(self, timeout, locator):
         try:
             element = WebDriverWait(self.driver, timeout).until(EC.element_to_be_clickable(locator))
             element.click()
-        except:
+        except NoSuchElementException as e:
             log.info(f'该元素{locator}不可点击')
+            raise e
 
     # 退出浏览器
     def quit(self):
